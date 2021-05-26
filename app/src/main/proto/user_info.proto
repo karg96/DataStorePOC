@@ -1,0 +1,12 @@
+syntax="proto3";
+
+
+
+message UserSettings{
+ enum BgColor{
+    COLORWHITE=0;
+    COLORBLACK=1;
+ }
+
+ BgColor bgColor =1;
+}
